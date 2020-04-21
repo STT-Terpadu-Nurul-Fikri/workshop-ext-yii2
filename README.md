@@ -1,4 +1,4 @@
-# WORKSHOP MEMBUAT EXTENSION YII2
+# WORKSHOP EXTENSION Yii2
 
 Project template ini digunakan untuk workshop membuat extension Yii2.
 
