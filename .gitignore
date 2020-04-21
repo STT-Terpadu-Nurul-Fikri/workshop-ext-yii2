@@ -1,0 +1,5 @@
+# isi folder assets
+/web/assets/*
+
+# folder vendor
+/vendor
