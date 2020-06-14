@@ -5,7 +5,7 @@ $db = require __DIR__ . '/db.php';
 
 $config = [
     'id' => 'basic',
-    'name' => 'WORKSHOP PWL',
+    'name' => 'WORKSHOP EXT PWL',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
     'aliases' => [
@@ -14,6 +14,7 @@ $config = [
     ],
     'components' => [
         'request' => [
+            'baseUrl' => '/workshop-ext-yii2',
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
             'cookieValidationKey' => 'Lo8nJtyKCDxIqzCHqEe9Mlv7dkviyUS6',
         ],
